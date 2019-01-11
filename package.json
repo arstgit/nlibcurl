@@ -1,0 +1,30 @@
+{
+  "name": "nlibcurl",
+  "version": "1.0.1",
+  "description": "Synchronous request.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node-gyp rebuild && node test",
+    "install": "node-gyp rebuild",
+    "prettier": "prettier --write '{,!(node_modules)/**/}*.js'",
+    "bench": "node benchmark/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekchuank/nlibcurl.git"
+  },
+  "keywords": [
+    "curl",
+    "request"
+  ],
+  "author": "derekchuank",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/derekchuank/nlibcurl/issues"
+  },
+  "homepage": "https://github.com/derekchuank/nlibcurl#readme"
+}
